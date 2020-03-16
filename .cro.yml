@@ -1,0 +1,15 @@
+---
+endpoints: 
+  - 
+    host-env: ROUTER_PROJECT_HOST
+    protocol: http
+    id: http
+    name: HTTP
+    port-env: ROUTER_PROJECT_PORT
+cro: 1
+links:  []
+name: router-project
+id: router-project
+entrypoint: service.p6
+env:  []
+...
